@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Vue.Js 🚀</title>
+    <script src="node_modules/vue/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="dist/output.css">
+    <style>
+        @keyframes spinner {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .spinner:before {
+            content: '';
+            box-sizing: border-box;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin-top: -10px;
+            margin-left: -10px;
+            border-radius: 50%;
+            border: 2px solid transparent;
+            border-top-color: #07d;
+            border-bottom-color: #07d;
+            animation: spinner .8s ease infinite;
+        }
+    </style>
+</head>
+
+<body class="h-full place-items-center grid">
+    <div id="app"></div>
+    <script type="module">
+        import app from "./js/components/App.js";
+        Vue.createApp(app).mount('#app');
+        //app.mount('#app');
+    </script>
+</body>
+
+</html>

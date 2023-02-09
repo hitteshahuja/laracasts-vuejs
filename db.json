@@ -1,0 +1,40 @@
+{
+  "assignments": [
+    {
+      "name": "Assigment 1",
+      "completed": false,
+      "id": 1,
+      "tag": "red"
+    },
+    {
+      "name": "Assigment 2",
+      "completed": false,
+      "id": 1,
+      "tag": "blue"
+    },
+    {
+      "name": "Assigment 3",
+      "completed": false,
+      "id": 1,
+      "tag": "blue"
+    },
+    {
+      "name": "Assigment 4",
+      "completed": false,
+      "id": 1,
+      "tag": "green"
+    },
+    {
+      "name": "Assigment 5",
+      "completed": true,
+      "id": 1,
+      "tag": "green"
+    },
+    {
+      "name": "Assigment 6",
+      "completed": true,
+      "id": 1,
+      "tag": "green"
+    }
+  ]
+}
